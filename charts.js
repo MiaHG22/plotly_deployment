@@ -93,7 +93,7 @@ d3.json("samples.json").then((data) => {
     type: "bar",
     orientation: 'h',
     marker: {
-      color: 'rgb(158,202,225)',
+      color: 'rgb(0, 0, 205)',
       opacity: 0.8,}
   }];
   
@@ -165,10 +165,10 @@ d3.json("samples.json").then((data) => {
       borderwidth: 2,
       bordercolor: "gray",
       steps: [
-        { range: [0, 2], color: "floralwhite"},
+        { range: [0, 2], color: "PaleGoldenRod"},
         { range: [2, 4], color: "lavender"},
-        { range: [4, 6], color: "thistle"},
-        { range: [6, 8], color: "mediumslateblue" },
+        { range: [4, 6], color: "Orange"},
+        { range: [6, 8], color: "Palegreen" },
         { range: [8, 10], color: "royalblue" },
       ]},
       
